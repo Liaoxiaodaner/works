@@ -1,0 +1,45 @@
+{include file="../public/header.html" /}
+
+<body>
+
+
+
+<div class="row">
+	<div class="panel panel-default">
+    	<div class="panel-heading">
+        	<a href='#' class="btn btn-primary">修改入库记录</a>
+        </div>
+        <div class="panel-body">
+            <table class="table table-bordered">
+                <tr>
+                    <td>产品编号</td>
+                    <td>产品名称</td>
+                    <td>入库日期</td>
+                    <td>库存总量</td>
+                    <td>经手人</td>
+                    <td>操作</td>
+                </tr>
+			{volist name='list' id='product'}
+                <tr>
+                    <td>{$product.id}</td>
+                    <td>{$product.name}</td>
+                    <td>{$product.dayin}</td>
+                    <td>{$product.number}</td>
+                    <td>{$product.people}</td>
+                    <td>
+                        <a href="{:url('ruku',['id'=>$product.id])}" >入库</a>
+                        
+                    </td>
+                </tr>
+            {/volist}
+            </table>
+        </div>
+    </div>
+</div>
+
+<div align="center">
+{$list->render()}
+</div>
+
+</body>
+</html>

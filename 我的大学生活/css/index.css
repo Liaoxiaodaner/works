@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-08 23:59:45
+ * @version $Id$
+ */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg{
+	position:absolute;
+	background-image:url(../images/1.jpg);
+	background-size: cover;
+	height:753px;
+	width: 100%;
+	background-repeat: no-repeat;
+    filter: brightness(0.4);
+}
+#container{
+	position:relative;
+	padding-top:200px;
+}
+table{
+	text-align: center;
+	opacity:0.6;
+	width:400px;
+	height:300px;
+	/*border:2px solid red;*/
+	margin:0px auto;
+	border-radius: 25px;
+	background-color: #9C6;
+	box-shadow: 10px 10px 5px grey;
+}
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 25px;
+    cursor: pointer;
+}

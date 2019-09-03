@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我的大学生活</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/main.css" rel="stylesheet">
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="bg"></div>
+    <div id="container">
+    	<div id="nav">
+        	<ul>
+        		<li id="one" onmousemove="change('top1')">个人资料</li>
+        		<li id="two" onmousemove="change('top2')">图片展示</li>
+                <li id="three" onmousemove="change('top3')">课程介绍</li>
+        		<li id="four" onmousemove="change('top4')">兴趣爱好</li>
+        	</ul>
+        </div>
+        <div id="onechange">
+        	<div id="div1-1"></div>
+            <div id="div1-2">
+                <div id="div1-3"></div>
+                <h3 style="color:#FFF">这里是我的个人信息！</h3>
+                <div style="letter-spacing:12px;color:#9F6">关于我</div>
+                <div style="color:#40B3DF;">学习
+                	<span style="background-color:#B4009E;color:#ffffff;">或者是生活</span>
+                </div>
+                <div style="color:#000000;color:#9F6">以及更多...</div>
+            </div>
+            <div id="div1-4">
+            	<p>姓名：廖晓丹</p><br/>
+            	<p>学号：07170822</p><br/>
+            	<p>院系：计算机与设计学院</p><br/>
+            	<p>班级：软件1708班</p><br/>
+            </div>
+        </div>
+        <div id="twochange" onload="shownext()">
+        	<h1>欢迎参观我们的校园</h1>
+        	<div id="div2">
+                <img src="images/1.jpg" alt="" id="img1">
+                <div class="pre" onclick="pre()"></div>
+                <div class="next" onclick="next()"></div>
+			</div>
+        </div>
+        <div id="threechange">
+        	<h1>我们学习了许多课程</h1>
+            <div>
+            	<div class="div3-1">
+                	<h2>JavaScript</h2>
+                    <p>JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。</p>
+                </div>
+                <div class="div3-1">
+                	<h2>PHP</h2>
+                    <p>PHP是一种易于学习和使用的服务器端脚本语言。只需要很少的编程知识你就能使用PHP建立一个真正交互的WEB站点。 PHP是能让你生成动态网页的工具之一。PHP网页文件被当作一般HTML网页文件来处理并且在编辑时你可以用编辑HTML的常规方法编写PHP。</p>
+                </div>
+                <div class="div3-1">
+                	<h2>Java</h2>
+                    <p>Java是一门面向对象编程语言，不仅吸收了C++语言的各种优点，还摒弃了C++里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程。</p>
+                </div>
+                <div class="div3-1">
+                	<h2>Swift</h2>
+                    <p>Swift是Apple在WWDC2014所发布的一门编程语言，用来撰写OS X和iOS应用程序[1]。在设计Swift时．就有意和Objective-C共存，Objective-C是Apple操作系统在导入Swift前使用的编程语言</p>
+                </div>
+                <div class="div3-1">
+                	<h2>Android开发</h2>
+                    <p>Android开发是指android平台上应用的制作，Android早期由“Android之父”之称的Andy Rubin创办，Google于2005年并购了成立仅22个月的高科技企业Android，展开了短信、手机检索、定位等业务，基于Linux的通用平台进入了开发。</p>
+                </div>
+                <div class="div3-1">
+                	<h2>MySQL</h2>
+                    <p>MySQL是一个关系型数据库管理系统，由瑞典MySQL AB 公司开发，目前属于 Oracle 旗下产品。MySQL 是最流行的关系型数据库管理系统之一，在 WEB 应用方面，MySQL是最好的 RDBMS (Relational Database Management System，关系数据库管理系统) 应用软件。</p>
+                </div>
+            </div>
+        </div>
+        <div id="fourchange">
+        	<div id="div4-1">
+            	<h1>努力成就更好的自己！</h1>
+            </div>
+            <div id="div4-2">
+            	<p>多读书</p><br/>
+            	<p>多思考</p><br/>
+            	<p>相信明天会更好</p><br/>
+            	<p>我爱学习！！！！</p><br/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

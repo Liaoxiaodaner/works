@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="../bootstrap/js/jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+
+<div class="row">
+	<div class="panel panel-default">
+    	<div class="panel-heading">
+        	<a href='#' class="btn btn-primary">修改入库记录</a>
+        </div>
+        <div class="panel-body">
+            <table class="table table-bordered">
+                <tr>
+                    <td>产品编号</td>
+                    <td>产品名称</td>
+                    <td>入库日期</td>
+                    <td>库存总量</td>
+                    <td>经手人</td>
+                    <td>操作</td>
+                </tr>
+			<{foreach  $ary as $v}>
+                <tr>
+                	<td><{$v['id']}></td>
+                    <td><{$v['name']}></td>
+                    <td><{$v['dayin']}></td>
+                    <td><{$v['number']}></td>
+					<td><{$v['people']}></td>
+                	<td><form action="ruku.php" method="post"><input style="display:none" type="text" name="id" value="<{$v['id']}>"/><input type="submit" value="入库"/></form></td> 
+                </tr>
+            <{/foreach}>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

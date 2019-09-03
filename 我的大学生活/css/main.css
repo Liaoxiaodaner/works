@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-08 23:48:35
+ * @version $Id$
+ */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg{
+	position:absolute;
+	background-image:url(../images/1.jpg);
+	background-size: cover;
+	height:753px;
+	width: 100%;
+	background-repeat: no-repeat;
+    filter: brightness(0.4);
+}
+#container{
+	position:relative;
+	
+}
+#nav{
+	padding-top:80px;
+	margin-left: 80px;
+	height: 100px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	
+}
+#nav ul{
+	list-style: none;
+}
+#nav ul li{
+	float: left;
+    width: 100px;
+    height: 40px;
+}
+
+#onechange{
+	width:1000px;
+	height:500px;
+	margin-left:250px;
+	/*border: 2px solid black;*/
+}
+#twochange{
+	width:1000px;
+	height:500px;
+	margin-left:250px;
+	/*border: 2px solid red;*/
+	display:none;
+}
+#threechange{
+	width:1000px;
+	height:500px;
+	margin-left:250px;
+	/*border: 2px solid green;*/
+	display:none;
+}
+#fourchange{
+	width:1000px;
+	height:500px;
+	margin-left:250px;
+	/*border: 2px solid white;*/
+	display:none;
+}
+.over{
+	color: #F93;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #F93;
+}
+#div1-1{
+	opacity:0.5;
+	position:absolute;
+	left:300px;
+	width:300px;
+	height:150px;
+	background-color:#40B3DF;
+}
+#div1-2{
+
+	width:320px;
+	font-family:verdana;
+	padding:20px;
+	border-radius:10px;
+	border:10px solid #EE872A;
+}
+#div1-3{
+	opacity:0.3;
+	position:absolute;
+	left:370px;
+	width:100px;
+	height:200px;
+	background-color:#8AC007;
+}
+#div1-4{
+	opacity:0.6;
+	margin-left: 500px;
+	width: 500px;
+	height: 300px;
+	padding: 15px;
+	background-color: yellow;
+	box-shadow: 10px 10px 5px grey;
+	text-align: center;
+	padding-top:50px;
+}
+#div1-4 p{
+	font-size: 20px;
+	color: #099;	
+}
+#div2{
+	width:800px;
+	height: 380px;
+	border: solid 0px blue;
+	margin: 20px auto;
+	position:relative;
+}
+#div2 div{
+	width:50px;
+	height:100px;
+	background-color: #000;
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+	cursor: pointer;
+}
+#twochange h1{
+	color: #FF3;
+	font-size: 36px;
+}
+#threechange h1{
+	position:absolute;
+	margin-left:800px;
+	color: #6F0;
+	font-size: 36px;
+	text-shadow: 5px 5px 5px #0FC;
+}
+#threechange h2{
+	padding-left:100px;
+	color: #09F;
+	font-size: 30px;
+}
+#threechange p{
+	color: #333;
+	font-size: 15px;
+	text-indent: 30px;
+}
+.div3-1{
+	float:left;
+	opacity:0.6;
+	border-radius: 25px;
+	background-color:#0F6;
+	width:300px;
+	height:200px;
+	margin-top:40px;
+	margin-left:30px;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+}
+.div3-1:hover{
+    width: 300px;
+    height: 200px;
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+#div4-1{
+	border-radius: 25px;
+	opacity:0.6;
+	width:500px;
+	height:200px;
+	background: linear-gradient(to bottom right, #9F9 , #FCF);
+}
+#div4-2{
+	opacity:0.6;
+	margin-left: 600px;
+	width: 300px;
+	height: 200px;
+	padding: 15px;
+	background-color: yellow;
+	box-shadow: 10px 10px 5px grey;
+	text-align: center;
+	padding-top:50px;
+}
+#div4-2 p{
+	font-size: 20px;
+	color: #099;	
+}
+#fourchange h1{
+	padding-top:50px;
+	padding-left:100px;
+	color: #C3C;
+	font-size: 30px;
+}
+#img1{
+	width:800px;
+	height: 380px;
+}
+.pre{
+	background: url(images/spirte.png) left top;
+	position: absolute;
+	left: 0px;
+	top: 140px;
+}
+.next{
+	background: url(images/spirte.png) right top;
+	position: absolute;
+	right: 0px;
+	top: 140px;
+}
