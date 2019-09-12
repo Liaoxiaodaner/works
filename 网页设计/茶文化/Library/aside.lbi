@@ -1,0 +1,11 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../样式表文件.css" rel="stylesheet" type="text/css">
+<div class="aside"><img src="../images/mo_02.jpg" width="173" height="529" usemap="#Map" border="0">
+  <map name="Map">
+    <area shape="rect" coords="34,63,55,182" href="../1.html">
+    <area shape="rect" coords="58,64,80,183" href="#">
+    <area shape="rect" coords="86,65,110,182" href="../wh.html">
+    <area shape="rect" coords="111,63,133,181" href="../cp.html">
+    <area shape="rect" coords="137,63,160,182" href="../1.html">
+  </map>
+</div>

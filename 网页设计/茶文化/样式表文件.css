@@ -1,0 +1,46 @@
+@charset "utf-8";
+.header {
+	margin-right: auto;
+	margin-left: auto;
+	height: 125px;
+	width: 778px;
+	background-image: url(images/mo_01.jpg);
+	margin-bottom: 10px;
+}
+.footer {
+	color: #CC9;
+	text-align: center;
+	height: 100px;
+	width: 778px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #930;
+	line-height: 25px;
+}
+.aside {
+	float: left;
+	height: 529px;
+	width: 173px;
+}
+.section {
+	float: right;
+	height: 529px;
+	background-image: url(images/mo_03.jpg);
+	width: 605px;
+}
+
+.article {
+	height: 530px;
+	width: 784px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.article .section img {
+	background-color: #FFF;
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+	margin-top: 40px;
+	margin-left: 10px;
+	border: 3px solid #666;
+}

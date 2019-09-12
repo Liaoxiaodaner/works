@@ -1,0 +1,18 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+</style>
+<link href="../样式表文件.css" rel="stylesheet" type="text/css">
+<div class="header">
+  <p><span class="p-1">青格</span>音乐　　　　　　　　　　　　　　　　　　　　　<span class="p-2">享受音乐，感受生活</span></p>
+  <div class="nav">
+    <ul>
+      <li><a href="../1.html">首页</a></li>
+      <li><a href="../video.html">视频</a></li>
+      <li><a href="../audio.html">音乐</a></li>
+      <li><a href="#">联系</a></li>
+  </ul>
+</div>
+
+  <p><img src="../image/01.jpg" width="975" height="293"></p>
+</div>
+　
