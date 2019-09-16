@@ -86,20 +86,20 @@ $(function() {
 
 var imgs = ["img/1.jpeg", "img/2.jpeg", "img/3.jpeg", "img/4.jpeg"]
 var txts = ["MORE DELICIOUS 1", "MORE DELICIOUS 2", "MORE DELICIOUS 3", "MORE DELICIOUS 4"]
-var index = 0
+var index2 = 0
 var time = null
 
 function update() {
 	$("#main").hide()
-	$("#main>a>img").attr("src", imgs[index])
-	$("#div2").html(txts[index])
+	$("#main>a>img").attr("src", imgs[index2])
+	$("#div2").html(txts[index2])
 	$("#main").fadeIn("fast")
-	$("#div3>ul>li:eq(" + index + ")").addClass("over")
-	$("#div3>ul>li:eq(" + index + ")").siblings().removeClass(
+	$("#div3>ul>li:eq(" + index2 + ")").addClass("over")
+	$("#div3>ul>li:eq(" + index2 + ")").siblings().removeClass(
 		"over")
-	index++
-	if (index == imgs.length) {
-		index = 0
+	index2++
+	if (index2 == imgs.length) {
+		index2 = 0
 	}
 	time = window.setTimeout("update()", 2500)
 }
@@ -107,6 +107,6 @@ function update() {
 function over() {
 	window.clearTimeout(time)
 	var name = $(this).attr("name")
-	index = Number(name)
+	index2 = Number(name)
 	update()
 }
